@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21C28352-917D-45F4-B2F7-3DFD97BC8892}</ProjectGuid>
+    <ProjectGuid>{6EFCAEA2-C01E-42DE-AB51-E09519911C44}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CheckZips</RootNamespace>
-    <AssemblyName>CheckZips</AssemblyName>
+    <RootNamespace>ResortPrices</RootNamespace>
+    <AssemblyName>ResortPrices</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ZipCodes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
